@@ -1,0 +1,184 @@
+
+[
+
+    {
+        "code": "p0001",
+        "type": "Personnel",
+        "message": "Facility missing manager",
+        "priority": 1,
+        "active": true,
+        "target":"AddPersonScreen",
+        "icon":"account-cancel-outline",
+        "icon_color": "red",
+        "system_id":"",
+        "sys_name":"",
+        "payload": "manager"
+    },
+    {
+        "code": "p0002",
+        "type": "Personnel",
+        "message": "Facility missing chief eng.",
+        "priority": 1,
+        "active": true,
+        "target":"AddPersonScreen",
+        "icon":"account-cancel-outline",
+        "icon_color": "#D2D845",
+        "system_id":"",
+        "sys_name":"",
+        "payload": "cheng"
+    },
+    {
+        "code": "p0003",
+        "type": "Personnel",
+        "message": "Facility missing maintenace members",
+        "priority": 1,
+        "active": true,
+        "target":"AddPersonScreen",
+        "icon":"account-cancel-outline",
+        "icon_color": "#D2D845",
+        "system_id":"",
+        "sys_name":"",
+        "payload": "mm"
+    },
+    {
+        "code": "ss0001",
+        "type": "Systems",
+        "message": "No Mechanical Systems defined for facility",
+        "priority": 1,
+        "active": true,
+        "target":"FacilitySystem",
+        "icon":"alpha-s-circle-outline",
+        "icon_color": "red",
+        "system_id":"",
+        "sys_name":"",
+        "payload":""
+        
+    },
+    {
+        "code": "ss0002",
+        "type": "Systems",
+        "message": "No Maint. Schedule defined for system",
+        "priority": 1,
+        "active": true,
+        "target":"AddMaintSchedule",
+        "icon":"alpha-s-circle-outline",
+        "icon_color": "red",
+        "system_id":"",
+        "sys_name":"",
+        "payload":""
+    },
+    {
+        "code": "ss0003",
+        "type": "Systems",
+        "message": "Past due inspection date",
+        "priority": 1,
+        "active": true,
+        "target":"MaintenanceRecordList",
+        "icon":"alpha-s-circle-outline",
+        "icon_color": "red",
+        "system_id":"",
+        "sys_name":"",
+        "payload":""
+    },
+    {
+        "code": "ss0004",
+        "type": "Systems",
+        "message": "Inspection Due Today",
+        "priority": 1,
+        "active": true,
+        "target":"MaintenanceRecordList",
+        "icon":"alpha-s-circle-outline",
+        "icon_color": "red",
+        "system_id":"",
+        "sys_name":"",
+        "payload":""
+    },
+    {
+        "code": "comp0001",
+        "type": "Compliance",
+        "message": "Expired Document",
+        "priority": 1,
+        "active": true,
+        "target":"EditComplianceDocument",
+        "icon":"alpha-c-circle-outline",
+        "icon_color": "red",
+        "documentId":""
+    },
+    {
+        "code": "comp0002",
+        "type": "Compliance",
+        "message": "Missing Document",
+        "priority": 1,
+        "active": true,
+        "target":"ComplianceDocList",
+        "icon":"alpha-c-circle-outline",
+        "icon_color": "red",
+        "documentId":""
+    },
+    {
+        "code": "comp0003",
+        "type": "Compliance",
+        "message": "Upcoming expiration date",
+        "priority": 2,
+        "active": true,
+        "target":"ComplianceDocList",
+        "icon":"alpha-c-circle-outline",
+        "icon_color": "#D2D845",
+        "documentId":""
+    },
+    {
+        "code": "comp0004",
+        "type": "Compliance",
+        "message": "Expires Today",
+        "priority": 1,
+        "active": true,
+        "target":"ComplianceDocList",
+        "icon":"alpha-c-circle-outline",
+        "icon_color": "#D2D845",
+        "documentId":""
+    },
+    {
+        "code": "safety0001",
+        "type": "Safety",
+        "message": "Expired Document",
+        "priority": 1,
+        "active": true,
+        "target":"EditSafetyDocument",
+        "icon":"medical-bag",
+        "icon_color": "red",
+        "documentId":""
+    },
+    {
+        "code": "safety0002",
+        "type": "Safety",
+        "message": "Missing Document",
+        "priority": 1,
+        "active": true,
+        "target":"SafetyDocList",
+        "icon":"medical-bag",
+        "icon_color": "red",
+        "documentId":""
+    },
+    {
+        "code": "safety0003",
+        "type": "Safety",
+        "message": "Upcoming expiration date",
+        "priority": 2,
+        "active": true,
+        "target":"SafetyDocList",
+        "icon":"medical-bag",
+        "icon_color": "#D2D845",
+        "documentId":""
+    },
+    {
+        "code": "safety0004",
+        "type": "Safety",
+        "message": "Safety Document Expires Today",
+        "priority": 2,
+        "active": true,
+        "target":"SafetyDocList",
+        "icon":"medical-bag",
+        "icon_color": "#D2D845",
+        "documentId":""
+    }
+]
